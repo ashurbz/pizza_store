@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const SearchComponent = () => {
   const [query, setQuery] = useState("");
+  const navigate = useNavigate();
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
+    navigate(`/order/${query}`);
   };
   const handleOnChange = (e) => {
     setQuery(e.target.value);
