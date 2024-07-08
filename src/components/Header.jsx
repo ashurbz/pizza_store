@@ -2,7 +2,7 @@ import SearchComponent from "./SearchComponent";
 
 const Header = () => {
   return (
-    <div className="flex justify-around mt-4 shadow-md p-2">
+    <div className="flex justify-around  shadow-md p-2">
       <div className="text-2xl">The Fast Pizza Co.</div>
       <div className="bg-slate-200">
         <SearchComponent />
