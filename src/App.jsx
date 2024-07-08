@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Cart from "./pages/Cart";
 import Layout from "./pages/Layout";
+import "./app.css";
 
 const routes = createBrowserRouter([
   {

@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const Layout = () => {
   return (
-    <>
+    <div className="bg-slate-200 min-h-screen">
       <header>
         <Header />
       </header>
@@ -14,7 +14,7 @@ const Layout = () => {
       <div>
         <CartOverview />
       </div>
-    </>
+    </div>
   );
 };
 
